@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Exam Elite"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.EnglishGrammarQuestion3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnglishGrammarQuestion2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnglishGrammarQuestion1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnglishGrammarTestType1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EnglishGrammarTests"
+            android:exported="false"
+            android:label="Grammar Questions" />
+        <activity
+            android:name=".activities.Questions2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Questions1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChemistryCardView"
+            android:exported="false"
+            android:label="CHEMISTRY" />
+        <activity
+            android:name=".activities.HistoryCardView"
+            android:exported="false"
+            android:label="HISTORY" />
+        <activity
+            android:name=".activities.EnglishCardView"
+            android:exported="false"
+            android:label="ENGLISH" />
+        <activity
+            android:name=".activities.RussianCardView"
+            android:exported="false"
+            android:label="РУССКИЙ" />
+        <activity
+            android:name=".activities.BiologyCardView"
+            android:exported="false"
+            android:label="BIOLOGY" />
+        <activity
+            android:name=".activities.MathCardView"
+            android:exported="false"
+            android:label="MATH" />
+        <activity
+            android:name=".activities.KoreanCardView"
+            android:exported="false"
+            android:label="한국어" />
+        <activity
+            android:name=".activities.AzerbaijaniCardView"
+            android:exported="false"
+            android:label="AZƏRBAYCAN DİLİ" />
+        <activity
+            android:name=".activities.CardViewActivity"
+            android:exported="false"
+            android:label="EXAM SECTION" />
+        <activity
+            android:name=".activities.SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.LoginIntro"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true"
+            android:label="Exam Section"
+            android:theme="@style/MainActivityTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

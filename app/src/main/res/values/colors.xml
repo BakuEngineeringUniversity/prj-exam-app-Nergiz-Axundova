@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#D16D6D</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorPrimaryText">#071FEB</color>
+    <color name="introLoginButtonColor">#309134</color>
+    <color name="colorPrimaryButton">#FFFFFFFF</color>
+    <color name="colorEditTextBgColor">#FCE5CC</color>
+    <color name="colorEditTextBorderColor">#D4EEF1</color>
+    <color name="colorPrimaryButtonBg">#E20C55</color>
+    <color name="colorSubhead">#D2B4DE</color>
+    <color name="introBackgroundColor">#F9EBEA </color>
+    <color name="itemColor1">#FFA07A</color>
+    <color name="detailTextColor">#17202A</color>
+    <color name="materialBarColor">#F39C12 </color>
+    <color name="readyButtonColor">#2ECC71</color>
+
+    <color name="startButtonColor">#2E8B57</color>
+
+    <color name="checkBgColor">#3CB371</color>
+    <color name="questionButtonColor">#D2691E</color>
+
+    <color name="engGrammarTest1">#F4A460</color>
+    <color name="engGrammarTest2">#9ACD32</color>
+
+    <color name="part1">#90EE90</color>
+    <color name="part2">#7B68EE</color>
+
+    <color name="a1">#A52A2A</color>
+    <color name="a2">#C71585</color>
+    <color name="a3">#20B2AA</color>
+
+    <color name="b1">#B22222</color>
+    <color name="b2">#FF8C00</color>
+    <color name="b3">#9370DB</color>
+    <color name="b4">#3CB371</color>
+
+    <color name="c1">#9ACD32</color>
+    <color name="c2">#A52A2A</color>
+    <color name="c3">#20B2AA</color>
+    <color name="c4">#0000CD</color>
+
+    <color name="d1">#FFB6C1</color>
+    <color name="d2">#FF4500</color>
+    <color name="d3">#BA55D3</color>
+    <color name="d4">#DAA520</color>
+    <color name="d5">#DB7093</color>
+
+    <color name="e1">#BC8F8F</color>
+    <color name="e2">#7B68EE</color>
+    <color name="e3">#0000CD</color>
+    <color name="e4">#66CDAA</color>
+
+    <color name="biology1">#9ACD32</color>
+    <color name="biology2">#6495ED</color>
+    <color name="biology3">#DB7093</color>
+
+    <color name="chemistry1">#F4A460</color>
+    <color name="chemistry2">#DDA0DD</color>
+    <color name="chemistry3">#5F9EA0</color>
+
+    <color name="history1">#4169E1</color>
+    <color name="history2">#20B2AA</color>
+
+    <color name="questionColor">#A52A2A</color>
+
+    <color name="cardViewTextColor">#4682B4</color>
+    <color name="bgColor">#E6E6FA</color>
+    <color name="textColor">#FFFFFFFF</color>
+    <color name="abstract_icon_color">#FDEDEC</color>
+    <color name="signUp">#DDA0DD</color>
+    <color name="signUpButton">#006400</color>
+</resources>

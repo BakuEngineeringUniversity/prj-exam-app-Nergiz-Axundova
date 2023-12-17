@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#EC21E0</item>
+        <item name="colorPrimaryDark">#2131EC</item>
+        <item name="colorAccent">#28B463</item>
+    </style>
+
+    <style name="HomeTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#EC0D58</item>
+        <item name="colorPrimaryDark">#0EE117</item>
+        <item name="colorAccent">#F49C1A</item>
+    </style>
+
+    <style name="SignUpTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#EC7063</item>
+        <item name="colorPrimaryDark">#A569BD</item>
+        <item name="colorAccent">#EC5321</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#D2B4DE</item>
+        <item name="colorPrimaryDark">#58E7B7</item>
+        <item name="colorAccent">#EC3721</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/materialBarColor</item>
+        <item name="colorPrimaryDark">#58E7B7</item>
+        <item name="colorAccent">#EC3721</item>
+    </style>
+</resources>
