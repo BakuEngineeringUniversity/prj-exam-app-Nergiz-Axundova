@@ -20,12 +20,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val explicitText = findViewById<TextView>(R.id.textSignup)
+        val explicitText = findViewById<TextView>(R.id.textSignUp)
 
         explicitText.setOnClickListener {
             val explicitIntent = Intent(this, SignupActivity::class.java)
             startActivity(explicitIntent)
-            finish()
         }
 
         etEmailAddress = findViewById(R.id.etEmailAddress)
@@ -42,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
             val password = etTextPassword.text.toString()
 
             if(email.isBlank() && password.isBlank()) {
-                Toast.makeText(this, "Email and Password cannot be empty", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Email and Password are required", Toast.LENGTH_SHORT).show()
             }
 
             else if(password.isBlank()) {

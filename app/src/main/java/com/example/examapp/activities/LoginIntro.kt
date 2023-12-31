@@ -18,7 +18,6 @@ class LoginIntro : AppCompatActivity() {
         explicitButton1.setOnClickListener {
             val explicitIntent = Intent(this, LoginActivity::class.java)
             startActivity(explicitIntent)
-            finish()
         }
     }
 

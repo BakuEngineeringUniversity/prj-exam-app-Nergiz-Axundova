@@ -1,4 +1,4 @@
-package com.example.examapp.activities
+package com.example.examapp.cardView
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

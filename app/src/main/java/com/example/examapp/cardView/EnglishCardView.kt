@@ -1,10 +1,11 @@
-package com.example.examapp.activities
+package com.example.examapp.cardView
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
 import com.example.examapp.R
+import com.example.examapp.activities.EnglishGrammarTests
 
 class EnglishCardView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -37,39 +37,39 @@
             android:name=".activities.Questions1"
             android:exported="false" />
         <activity
-            android:name=".activities.ChemistryCardView"
+            android:name=".cardView.ChemistryCardView"
             android:exported="false"
             android:label="CHEMISTRY" />
         <activity
-            android:name=".activities.HistoryCardView"
+            android:name=".cardView.HistoryCardView"
             android:exported="false"
             android:label="HISTORY" />
         <activity
-            android:name=".activities.EnglishCardView"
+            android:name=".cardView.EnglishCardView"
             android:exported="false"
             android:label="ENGLISH" />
         <activity
-            android:name=".activities.RussianCardView"
+            android:name=".cardView.RussianCardView"
             android:exported="false"
             android:label="РУССКИЙ" />
         <activity
-            android:name=".activities.BiologyCardView"
+            android:name=".cardView.BiologyCardView"
             android:exported="false"
             android:label="BIOLOGY" />
         <activity
-            android:name=".activities.MathCardView"
+            android:name=".cardView.MathCardView"
             android:exported="false"
             android:label="MATH" />
         <activity
-            android:name=".activities.KoreanCardView"
+            android:name=".cardView.KoreanCardView"
             android:exported="false"
             android:label="한국어" />
         <activity
-            android:name=".activities.AzerbaijaniCardView"
+            android:name=".cardView.AzerbaijaniCardView"
             android:exported="false"
             android:label="AZƏRBAYCAN DİLİ" />
         <activity
-            android:name=".activities.CardViewActivity"
+            android:name=".cardView.CardViewActivity"
             android:exported="false"
             android:label="EXAM SECTION" />
         <activity

@@ -1,12 +1,12 @@
-package com.example.examapp.activities
+package com.example.examapp.cardView
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.examapp.R
 
-class MathCardView : AppCompatActivity() {
+class ChemistryCardView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_math_card_view)
+        setContentView(R.layout.activity_chemistry_card_view)
     }
 }

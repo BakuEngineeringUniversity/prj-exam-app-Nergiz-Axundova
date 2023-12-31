@@ -1,4 +1,4 @@
-package com.example.examapp.activities
+package com.example.examapp.cardView
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +17,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity1.setOnClickListener {
             val cardViewIntent1 = Intent(this, AzerbaijaniCardView::class.java)
             startActivity(cardViewIntent1)
-            finish()
         }
 
         //Korean Card View
@@ -26,7 +25,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity2.setOnClickListener {
             val cardViewIntent2 = Intent(this, KoreanCardView::class.java)
             startActivity(cardViewIntent2)
-            finish()
         }
 
         //Math Card View
@@ -35,7 +33,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity3.setOnClickListener {
             val cardViewIntent3 = Intent(this, MathCardView::class.java)
             startActivity(cardViewIntent3)
-            finish()
         }
 
         //Biology Card View
@@ -44,7 +41,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity4.setOnClickListener {
             val cardViewIntent4 = Intent(this, BiologyCardView::class.java)
             startActivity(cardViewIntent4)
-            finish()
         }
 
         //Russian Card View
@@ -53,7 +49,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity5.setOnClickListener {
             val cardViewIntent5 = Intent(this, RussianCardView::class.java)
             startActivity(cardViewIntent5)
-            finish()
         }
 
         //English Card View
@@ -62,7 +57,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity6.setOnClickListener {
             val cardViewIntent6 = Intent(this, EnglishCardView::class.java)
             startActivity(cardViewIntent6)
-            finish()
         }
 
         //History Card View
@@ -71,7 +65,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity7.setOnClickListener {
             val cardViewIntent7 = Intent(this, HistoryCardView::class.java)
             startActivity(cardViewIntent7)
-            finish()
         }
 
         //Chemistry Card View
@@ -80,7 +73,6 @@ class CardViewActivity : AppCompatActivity() {
         explicitCardViewActivity8.setOnClickListener {
             val cardViewIntent8 = Intent(this, ChemistryCardView::class.java)
             startActivity(cardViewIntent8)
-            finish()
         }
     }
 }

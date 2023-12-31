@@ -131,4 +131,6 @@
     <string name="mr_joe">Mr.Joe</string>
     <string name="mailman">Mailman</string>
     <string name="question_3">Question 3</string>
+    <string name="reading_cardviewText">Reading</string>
+    <string name="reading_textCardView">Reading</string>
 </resources>
