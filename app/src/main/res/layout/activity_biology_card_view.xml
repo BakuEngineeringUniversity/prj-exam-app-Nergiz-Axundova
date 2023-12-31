@@ -35,28 +35,29 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
                     <ImageView
                         android:id="@+id/botanyIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
                         android:contentDescription="@string/botany"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/botany" />
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/botany"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="30sp" />
 
             </LinearLayout>
 
@@ -75,29 +76,30 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/zoologyIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
                         android:contentDescription="@string/zoology"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/zoology" />
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/zoology"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="30sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -115,29 +117,30 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/physiologyIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
                         android:contentDescription="@string/physiology"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginStart="16dp"
                         app:srcCompat="@drawable/physiology" />
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/physiology"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="30sp" />
 
             </LinearLayout>
 
