@@ -61,7 +61,7 @@
     <color name="chemistry3">#5F9EA0</color>
 
     <color name="history1">#4169E1</color>
-    <color name="history2">#20B2AA</color>
+    <color name="history2">#CB4335</color>
 
     <color name="questionColor">#A52A2A</color>
 
@@ -71,4 +71,6 @@
     <color name="abstract_icon_color">#FDEDEC</color>
     <color name="signUp">#DDA0DD</color>
     <color name="signUpButton">#006400</color>
+
+
 </resources>
