@@ -11,7 +11,7 @@ class EnglishGrammarTestType1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_english_grammar_test_type1)
 
-        val explicitButton = findViewById<Button>(R.id.startButton)
+        val explicitButton = findViewById<Button>(R.id.startButtonEng)
 
         explicitButton.setOnClickListener {
             val explicitButtonIntent = Intent(this, EnglishGrammarQuestion1::class.java)
