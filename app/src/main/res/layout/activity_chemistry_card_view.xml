@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cardView.ChemistryCardView"
-    android:background="@color/bgColor">
+    android:background="@color/bgColor"
+    tools:context=".cardView.ChemistryCardView">
 
     <GridLayout
         android:id="@+id/gridLayout8"
@@ -25,7 +25,6 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:layout_marginStart="0dp"
             android:layout_marginTop="40dp"
             android:backgroundTint="@color/chemistry1"
             app:cardCornerRadius="40dp"
@@ -35,28 +34,30 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/analyticalChemistryIcon"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/analytical_chemistry"
+                    app:srcCompat="@drawable/chemical_engineering" />
 
-                    <ImageView
-                        android:id="@+id/chemicalEngineeringIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:contentDescription="@string/chemical_engineering"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/chemical_engineering" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/textViewBesideImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/analytical_Chemistry"
+                    android:textAllCaps="true"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -65,7 +66,6 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:layout_marginStart="0dp"
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/chemistry2"
             app:cardCornerRadius="40dp"
@@ -75,29 +75,29 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/physicalChemistryIcon"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/physical_chemistry"
+                    app:srcCompat="@drawable/physical_chemistry" />
 
-                    <ImageView
-                        android:id="@+id/physicalChemistryIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:contentDescription="@string/physical_chemistry"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/physical_chemistry" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/physical_chemistry"
+                    android:textAllCaps="true"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -105,7 +105,6 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:layout_marginStart="0dp"
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/chemistry3"
             app:cardCornerRadius="40dp"
@@ -115,29 +114,30 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="150dp"
-                    android:layout_height="match_parent">
 
-                    <ImageView
-                        android:id="@+id/inorganicChemistryIcon"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:contentDescription="@string/inorganic_chemistry"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/inorganic_chemistry" />
+                <ImageView
+                    android:id="@+id/inorganicChemistryIcon"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="@string/inorganic_chemistry"
+                    app:srcCompat="@drawable/inorganic_chemistry" />
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="@string/inorganic_chemistry"
+                    android:textAllCaps="true"
+                    android:textColor="@color/detailTextColor"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

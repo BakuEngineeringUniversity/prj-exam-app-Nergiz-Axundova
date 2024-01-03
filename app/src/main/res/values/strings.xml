@@ -133,4 +133,6 @@
     <string name="question_3">Question 3</string>
     <string name="reading_cardviewText">Reading</string>
     <string name="reading_textCardView">Reading</string>
+    <string name="analytical_chemistry">\n</string>
+    <string name="analytical_Chemistry">Analytical Chemistry</string>
 </resources>
