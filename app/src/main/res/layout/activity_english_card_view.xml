@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cardView.EnglishCardView"
-    android:background="@color/bgColor">
+    android:background="@color/bgColor"
+    tools:context=".cardView.EnglishCardView">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -45,28 +45,29 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/listeningIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/listening"
+                        app:srcCompat="@drawable/listening" />
 
-                        <ImageView
-                            android:id="@+id/listeningIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/listening"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/listening" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="39dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/listening"
+                        android:textAllCaps="true"
+                        android:textColor="@color/detailTextColor"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -86,28 +87,29 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/readingIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/reading"
+                        app:srcCompat="@drawable/reading" />
 
-                        <ImageView
-                            android:id="@+id/readingIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/reading"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/reading" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/reading"
+                        android:textAllCaps="true"
+                        android:textColor="@color/detailTextColor"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -127,28 +129,29 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/writingIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/writing"
+                        app:srcCompat="@drawable/writing" />
 
-                        <ImageView
-                            android:id="@+id/writingIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/writing"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/writing" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/writing"
+                        android:textAllCaps="true"
+                        android:textColor="@color/detailTextColor"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -168,28 +171,29 @@
                 app:layout_constraintTop_toBottomOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/grammarIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/grammar"
+                        app:srcCompat="@drawable/grammar_eng" />
 
-                        <ImageView
-                            android:id="@+id/grammarIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/grammar"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/grammar_eng" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="39dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/grammar"
+                        android:textAllCaps="true"
+                        android:textColor="@color/detailTextColor"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
