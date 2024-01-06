@@ -35,7 +35,6 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginStart="0dp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/d1"
                 app:cardCornerRadius="40dp"
@@ -45,28 +44,30 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/listeningKoreanIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/listening_korean"
+                        app:srcCompat="@drawable/listening_kr" />
 
-                        <ImageView
-                            android:id="@+id/listeningKoreanIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/listening_korean"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/listening_kr" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="54dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/listening_Korean"
+                        android:textAllCaps="true"
+                        android:textColor="@color/kCV"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
 
@@ -75,7 +76,6 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginStart="0dp"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/d2"
                 app:cardCornerRadius="40dp"
@@ -85,28 +85,29 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/readingKoreanIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/reading_korean"
+                        app:srcCompat="@drawable/reading_kr" />
 
-                        <ImageView
-                            android:id="@+id/readingKoreanIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/reading_korean"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/reading_kr" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="54dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/reading_Korean"
+                        android:textAllCaps="true"
+                        android:textColor="@color/kCV"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -125,29 +126,29 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/writingKoreanIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/writing_korean"
+                        app:srcCompat="@drawable/writing_kr" />
 
-                        <ImageView
-                            android:id="@+id/writingKoreanIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/writing_korean"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/writing_kr" />
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="54dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/writing_Korean"
+                        android:textAllCaps="true"
+                        android:textColor="@color/kCV"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -166,28 +167,30 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
 
-                        <ImageView
-                            android:id="@+id/speakingKoreanIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/speaking_korean"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/speaking_kr" />
+                    <ImageView
+                        android:id="@+id/speakingKoreanIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/speaking_korean"
+                        app:srcCompat="@drawable/speaking_kr" />
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="54dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/speaking_Korean"
+                        android:textAllCaps="true"
+                        android:textColor="@color/kCV"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -196,7 +199,6 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginStart="0dp"
                 android:layout_marginTop="15dp"
                 android:backgroundTint="@color/d5"
                 app:cardCornerRadius="40dp"
@@ -206,28 +208,31 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent">
 
-                        <ImageView
-                            android:id="@+id/topikIcon"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:contentDescription="@string/topik"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/topik_icon" />
+                    <ImageView
+                        android:id="@+id/topikIcon"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="16dp"
+                        android:contentDescription="@string/topik"
+                        app:srcCompat="@drawable/topik_icon" />
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/test_of_proficiency_in_korean"
+                        android:textAllCaps="true"
+                        android:textColor="@color/kCV"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 

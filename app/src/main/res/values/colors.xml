@@ -45,7 +45,7 @@
     <color name="d2">#FF4500</color>
     <color name="d3">#BA55D3</color>
     <color name="d4">#DAA520</color>
-    <color name="d5">#DB7093</color>
+    <color name="d5">#32CD32</color>
 
     <color name="e1">#BC8F8F</color>
     <color name="e2">#7B68EE</color>
@@ -72,5 +72,5 @@
     <color name="signUp">#DDA0DD</color>
     <color name="signUpButton">#006400</color>
 
-
+    <color name="kCV">#000080</color>
 </resources>
